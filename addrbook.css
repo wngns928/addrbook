@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+h2 {
+	color: white;
+}
+
+body {
+	background-image: url('../images/books.png');
+}
+
+table {
+	width: 600px;
+	border-collapse: collapse;
+	border-top: 1px solid #444444;
+	text-align: center;
+}
+
+td, th {
+	font-size: 10pt;
+	border-bottom: 1px solid #444444;
+	height: 30px;
+	padding: 5px;
+}
+
+th {
+	background-color: gray;
+	color: #ffffff;
+	font-family: Georgia;
+}
+
+tr, td {
+	color: #000000;
+	background-color: lightgray;
+}
+
+input {
+	height: 25px;
+	width: 200px;
+}
+
+input[type="submit"], [type="reset"], [type="button"] {
+	height: 25px;
+	width: 80px;
+}
